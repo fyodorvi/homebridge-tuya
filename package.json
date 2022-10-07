@@ -1,12 +1,11 @@
 {
-  "name": "homebridge-tuya",
-
-  "version": "2.1.0-beta.7",
-
+  "name": "homebridge-tuya-improved-garage-door",
+  "version": "2.1.1",
   "description": "🏠 Offical Homebridge plugin for TuyAPI ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon"
   },
   "bin": {
     "tuya-lan": "./bin/cli.js",
@@ -29,6 +28,8 @@
     "fs-extra": "^8.1.0",
     "http-mitm-proxy": "^0.8.1",
     "json5": "^2.1.0",
+    "luxon": "^3.0.4",
+    "nodemon": "^2.0.20",
     "qrcode": "^1.4.1",
     "yaml": "^1.6.0"
   },
