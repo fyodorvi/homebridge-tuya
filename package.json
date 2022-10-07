@@ -7,11 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon"
   },
-  "bin": {
-    "tuya-lan": "./bin/cli.js",
-    "tuya-lan-find": "./bin/cli-find.js",
-    "tuya-lan-decode": "./bin/cli-decode.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iRayanKhan/homebridge-tuya.git"
